@@ -15,5 +15,6 @@ public class ScriptTest
 		String title = driver.getTitle();
 		System.out.println("**********"+title+"**********");
 		Thread.sleep(1000);
+		driver.quit();
 	}
 }
